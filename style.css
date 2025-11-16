@@ -35,7 +35,7 @@ header {
 
 .navbar a {
   font-size: 14px;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   color: #282c3f;
   font-weight: 700;
   text-transform: uppercase;
@@ -89,3 +89,35 @@ header {
   align-items: center;
   cursor: pointer;
 }
+
+/* main */
+/* banner */
+.banner_container {
+  margin: 40px 0;
+}
+.banner_container img {
+  width: 100%;
+}
+
+/*  */
+.category_heading {
+  text-transform: uppercase;
+  color: #3e4152;
+  letter-spacing: 0.15em;
+  font-size: 1.8em;
+  margin: 50px 0 10px 30px;
+  max-height: 5em;
+  font-weight: 700;
+}
+
+.category_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.sale_item{
+  width: 250px;
+}
+
+
